@@ -1,14 +1,13 @@
 // ==UserScript==
 // @name         wildporg Colors Exploit
-// @namespace    http://tampermonkey.net/
-// @version      1.0
+// @namespace    https://github.com/wildporg/wildporg-quizlet-hack/blob/main/main.js
+// @version      1.0.1
 // @description  Color matching items in quizlet match.
-// @author       wildporg
+// @author       wildporg (https://github.com/wildporg/)
 // @match        https://quizlet.com/*/*
 // @grant        none
 // ==/UserScript==
 
-var gameRunning;
 var answers;
 var i = 0;
 var x;
@@ -24,8 +23,6 @@ var colors = ["","#FF0000","#FFFF00","#00FF00","#00FFFF","#0000FF","#FF6600"];
                 };
                 i = 1;
             };
-        } else {
-           gameRunning = false;
         };
     }, 100);
 })();
