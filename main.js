@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         wildporg Colors Exploit
 // @namespace    http://tampermonkey.net/
-// @version      Beta-0.1
+// @version      1.0
 // @description  Color matching items in quizlet match.
 // @author       wildporg
 // @match        https://quizlet.com/*/*
