@@ -1,9 +1,11 @@
 # wildporg Quizlet Hack
 
 ## What is it?
-wildporg Quizlet Hack is a userscript/browser extension. It colors two matching quizlet cards the same color to assist learning.
+wildporg Quizlet Hack is a javascript/userscript program. It colors two matching quizlet cards the same color to assist learning.
 
 ## How do you install it?
+
+There are two ways, using a chrome extension, and just using it in the browser. To use the chrome extension, continue reading. To use it with just a normal browser, go to the no extension page. ([./no-extension/](https://github.com/wildporg/wildporg-quizlet-hack/tree/main/no-extension))
 
 It's pretty simple really, and there are 3 main steps.
 - Install TamperMonkey (or any user script manager)
